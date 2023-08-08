@@ -57,3 +57,25 @@ To know about the cluster port -
 ```
 kubectl cluster-info --context kind-kind
 ```
+
+Step 6. Now we have to donwload Keadm - this is the install tool to install KubeEdge
+```
+wget https://github.com/kubeedge/kubeedge/releases/download/v1.12.1/keadm-v1.12.1-linux-amd64.tar.gz
+```
+```
+tar -zxvf keadm-v1.12.1-linux-amd64.tar.gz
+```
+```
+sudo cp keadm-v1.12.1-linux-amd64/keadm/keadm /usr/local/bin/keadm
+```
+
+Step 7. Using keadm command to install the Cloudcore
+
+```
+sudo keadm deprecated init --advertise-address="CloudCore-IP" --kubeedge-version=1.12.1 --kube-config=/root/.kube/config
+```
+
+
+## Tip
+
+` keadm deprecated init -h` use -h in order to know what the command does. Here "keadm deprecated init" command installs KubeEdge's master node (on the cloud) component.

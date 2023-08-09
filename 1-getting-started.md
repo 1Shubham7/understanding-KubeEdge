@@ -100,6 +100,9 @@ Step 8. Check if cloudcore is running successfull   //misspell found in docs
 sudo kubectl get all -nkubeedge
 ```
 
+For this tutorial we need two VMs
+
+
 
 Resources :
 https://www.cncf.io/blog/2022/08/18/kubernetes-on-the-edge-getting-started-with-kubeedge-and-kubernetes-for-edge-computing/

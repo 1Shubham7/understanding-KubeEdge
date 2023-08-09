@@ -69,11 +69,18 @@ tar -zxvf keadm-v1.12.1-linux-amd64.tar.gz
 sudo cp keadm-v1.12.1-linux-amd64/keadm/keadm /usr/local/bin/keadm
 ```
 
-Step 7. Using keadm command to install the Cloudcore
+Step 7. Using keadm command to install the Cloudcore/ Deploy cloudcore on Master Node
 
 ```
 sudo keadm deprecated init --advertise-address="CloudCore-IP" --kubeedge-version=1.12.1 --kube-config=/root/.kube/config
 ```
+
+Step 8. Check if cloudcore is running successfull   //misspell found in docs
+
+```
+sudo kubectl get all -nkubeedge
+```
+
 
 
 ## Tip

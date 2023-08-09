@@ -6,6 +6,10 @@
 ## this really help to answer "why edge?"
 ![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/39e25b75-0482-4bac-b845-3e46fa7b77ac)
 
+>> The computing side is handelled by Edge while the cloud (Orchestration) part is handelled by Kubernetes.
+![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/e674c901-a0bd-47fb-870d-155ac9e3074e)
+
+
 
 ## Tutorial
 

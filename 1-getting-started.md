@@ -1,5 +1,6 @@
 ## Let's Goooooooooooooooooo
 
+
 ### This is the arcitechture of KubeEdge
 ![under1](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/1e52665f-db37-45b4-bed9-1c54b8b4472f)
 
@@ -98,6 +99,12 @@ Step 8. Check if cloudcore is running successfull   //misspell found in docs
 ```
 sudo kubectl get all -nkubeedge
 ```
+
+
+Resources :
+https://www.cncf.io/blog/2022/08/18/kubernetes-on-the-edge-getting-started-with-kubeedge-and-kubernetes-for-edge-computing/
+https://www.youtube.com/watch?v=vzutlStNJew&t=185s&ab_channel=OpenEdgeHPCInitiative
+https://kubernetes.io/blog/2019/03/19/kubeedge-k8s-based-edge-intro/
 
 
 ## Tip

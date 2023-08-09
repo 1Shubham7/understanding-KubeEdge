@@ -9,6 +9,9 @@
 >> The computing side is handelled by Edge while the cloud (Orchestration) part is handelled by Kubernetes.
 ![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/e674c901-a0bd-47fb-870d-155ac9e3074e)
 
+>> Basic framework
+![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/0edc65b1-8b03-4cda-be43-bee42557a9bd)
+
 
 
 ## Tutorial

@@ -3,6 +3,10 @@
 ### This is the arcitechture of KubeEdge
 ![under1](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/1e52665f-db37-45b4-bed9-1c54b8b4472f)
 
+## this really help to answer "why edge?"
+![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/39e25b75-0482-4bac-b845-3e46fa7b77ac)
+
+
 ## Tutorial
 
 ### You obviously must have Docker and Kubernetes
@@ -72,15 +76,18 @@ sudo cp keadm-v1.12.1-linux-amd64/keadm/keadm /usr/local/bin/keadm
 Step 7. Using keadm command to install the Cloudcore/ Deploy cloudcore on Master Node
 
 ```
-sudo keadm deprecated init --advertise-address="CloudCore-IP" --kubeedge-version=1.12.1 --kube-config=/root/.kube/config
+keadm deprecated init --advertise-address="80.158.90.193" --kubeedge-version=1.12.1 --kube-config=/root/.kube/config
 ```
+
+> "80.158.90.193" - that is the cloudcore IP of your cloudcore, you will need a cloudcore for that.
+
+Then enter y
 
 Step 8. Check if cloudcore is running successfull   //misspell found in docs
 
 ```
 sudo kubectl get all -nkubeedge
 ```
-
 
 
 ## Tip

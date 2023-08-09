@@ -12,6 +12,9 @@
 >> Basic framework
 ![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/0edc65b1-8b03-4cda-be43-bee42557a9bd)
 
+![image](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/aa64dece-84f9-47bd-84f5-283950b5e72f)
+
+
 
 
 ## Tutorial

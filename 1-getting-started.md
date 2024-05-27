@@ -1,5 +1,10 @@
 ## Let's Goooooooooooooooooo
 
+**What's Edge computing:** Edge computing brings computation and data storage closer to the location where it is needed, reducing latency and bandwidth use. It involves processing data at or near the data source, rather than relying on a centralized cloud data center.
+
+### Example
+
+Imagine you're in a factory that's using Internet of Things (IoT) sensors to monitor various machines and processes. Instead of sending all the sensor data to a centralized server for analysis (which is what cloud computing is), edge computing allows the sensors to process data locally. This means they can detect anomalies, predict maintenance needs, and optimize processes right at the source. By doing so, edge computing reduces latency, conserves bandwidth, and enables real-time insights, improving overall efficiency and reducing downtime in the factory.
 
 ### This is the arcitechture of KubeEdge
 ![under1](https://github.com/1Shubham7/understanding-KubeEdge/assets/116020663/1e52665f-db37-45b4-bed9-1c54b8b4472f)

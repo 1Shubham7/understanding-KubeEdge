@@ -42,6 +42,18 @@ tar -zxvf keadm-v1.12.1-linux-amd64.tar.gz
 sudo cp keadm-v1.12.1-linux-amd64/keadm/keadm /usr/local/bin/keadm
 ```
 
+Step 3. Or what I did was I simply build it form source:
+
+```shell
+git clone https://github.com/kubeedge/kubeedge.git
+cd kubeedge
+make
+```
+
+Step 4. you will have the tools inside _output/local/bin. I  then did this:
+
+`./cloudcore --defaultconfig > cloudcore.yaml`
+
 Step 7. Using keadm command to install the Cloudcore/ Deploy cloudcore on Master Node
 
 ```

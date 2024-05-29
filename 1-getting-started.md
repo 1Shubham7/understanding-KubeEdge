@@ -25,60 +25,13 @@ Imagine you're in a factory that's using Internet of Things (IoT) sensors to mon
 
 ## Tutorial
 
-### You obviously must have Docker and Kubernetes
-
-Start out with this (Istalling docker)
-
-```
-sudo apt install docker.io -y
-```
-
-and (enabling docker)
-
-```
-sudo systemctl enable docker
-```
-
-confirm
-
-```
-sudo systemctl status docker
-```
 
 Then >>
 
-Step 1. Install Kind
-```
-curl -Lo ./kind "https://kind.sigs.k8s.io/dl/v0.11.1/kind-$(uname)-amd64"
-```
-```
-chmod +x ./kind
-```
-```
-sudo mv ./kind /usr/local/bin/kind
-```
+Step 1. You must have Docker, Kubernetes, Kind, kubectl, create a cluster
 
-Step 2. Install kubectl
 
-```
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-```
-
-```
-sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-```
-
-Step 5. Create a cluster using Kind
-```
-kind create cluster
-```
-
-To know about the cluster port -
-```
-kubectl cluster-info --context kind-kind
-```
-
-Step 6. Now we have to donwload Keadm - this is the install tool to install KubeEdge
+Step 2. donwload Keadm - this is the install tool to install KubeEdge
 ```
 wget https://github.com/kubeedge/kubeedge/releases/download/v1.12.1/keadm-v1.12.1-linux-amd64.tar.gz
 ```
